@@ -1,0 +1,11 @@
+{
+  "name": "sparx-bank",
+  "version": "1.0.0",
+  "description": "The Sparks Foundation Internship Project.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sougato Barui",
+  "license": "ISC"
+}

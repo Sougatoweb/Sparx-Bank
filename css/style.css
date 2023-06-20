@@ -1,0 +1,127 @@
+
+.img1{
+    height: 650px;
+
+}
+.img2 {
+    border-radius: 50%;
+
+}
+.intro{
+
+    box-shadow: inset -4px -1px 20px 8px;
+}
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#4C4B4B;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+html{
+    height:100%;
+
+}
+
+body{font-family: "Montserrat";
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    min-height:100%;
+    }
+    
+    h1,h2,h3,h4,h5,h6
+    {font-weight: bold;
+    
+    }
+    p{
+       color:#8f8f8f;
+     font-size: 1.2rem;
+    font-family:"Montserrat-Light";
+     margin:0;}
+    
+    
+    
+    .activity{
+        padding:3rem;
+        margin-bottom:5rem;
+        background: rgb(237,140,140);
+        background: linear-gradient(180deg, rgba(237,140,140,1) 10%, rgba(255,254,253,1) 60%, rgba(251,251,251,1) 100%);
+    }
+    
+    
+    /*-------- Headings------- */
+    .big-heading{font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 5rem;}
+    
+    .section-heading{font-size: 3rem;
+    line-height: 2;}
+    
+    
+    /*---------- Containers----------- */
+    /* .container-fluid{padding: 7% 15%;} */
+    
+    /* ------------Sections-------- */
+    .colored-section{background-color: #FF4C68;
+    color:white; }
+    
+    .white-section{
+      background-color: #fff;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+   
+   
+    
+    
+  
+    /* Download Buttons */
+    .download-button{margin:5% 3% 5% 0;}
+    
+    /*----------- Footer Section------------ */
+   #footer{
+    
+    padding-top:3rem;
+    padding-bottom:2rem;
+ 
+    
+
+   }
+    
+    
+    
+   
